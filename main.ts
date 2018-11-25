@@ -16,7 +16,7 @@ basic.showLeds(`
 namespace bitbooster {
     /**
     * Get the word field editor
-    * @param word eg: Hello
+    * @param word eg: A
     */
     //% blockId=wordPicker block="$word"
     //% blockHidden=false
