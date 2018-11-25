@@ -15,8 +15,9 @@ basic.showLeds(`
 //% color="#AA278D"
 namespace bitbooster {
     //% block
-    export function servoControl() {
-
+    //% x.min=-100 x.max=100
+    export function servoControl(angle: number) {
+        pins.servoWritePin(AnalogPin.P13, angle)
     }
 
     // note that Caml casing yields lower case
