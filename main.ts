@@ -7,5 +7,5 @@ basic.showLeds(`
     `);
 
 basic.showLeds(`
-     . . # . .
+     # . # . #
      `);
