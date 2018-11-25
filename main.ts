@@ -19,7 +19,7 @@ namespace bitbooster {
     //% blockHidden=true
     //% colorSecondary="#FFFFFF"
     //% word.fieldEditor="textdropdown" word.fieldOptions.decompileLiterals=true
-    //% word.fieldOptions.values='[["A"], ["B"]]'
+    //% word.fieldOptions.values=[["A"], ["B"]]
     export function __wordPicker(word: string): string {
         return word;
     }
