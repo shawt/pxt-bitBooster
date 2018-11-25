@@ -24,7 +24,7 @@ namespace bitbooster {
     }
     //% block="Servo $s angle = $angle"
     //% angle.min=-0 angle.max=180
-    //% $s.shaddow = "wordPicker"
+    //% s.shaddow = "wordPicker"
     export function servoControl(s: string, angle: number) {
         if (s == "A") {
             pins.servoWritePin(AnalogPin.P13, angle);
