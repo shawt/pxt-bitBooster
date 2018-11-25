@@ -15,7 +15,7 @@ basic.showLeds(`
 //% color="#AA278D"
 namespace bitbooster {
     //% block
-    //% block="Servo s = $s angle = $angle"
+    //% block="Servo $s angle = $angle"
     //% angle.min=-0 angle.max=180
     export function servoControl(s: string, angle: number) {
         if (s == "A") {
