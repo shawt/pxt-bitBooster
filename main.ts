@@ -28,7 +28,7 @@ namespace bitbooster {
     }
 
     //% block="Servo $s angle = $angle"
-    //% s.shaddow="wordPicker"
+    //% s.shadow="wordPicker"
     //% angle.min=0 angle.max=180  
     export function servoControl(s: string, angle: number) {
         if (s == "A") {
@@ -38,11 +38,6 @@ namespace bitbooster {
         }
     }
 
-    //% block="say $word"
-    //% word.shadow="wordPicker"
-    export function say(word: string) {
-
-    }
     // note that Caml casing yields lower case
     // block text with spaces
 
