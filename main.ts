@@ -6,6 +6,4 @@ basic.showLeds(`
     . # # # .
     `);
 
-basic.showLeds(`
-     # . # . #
-     `);
+
