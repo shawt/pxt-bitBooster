@@ -16,7 +16,6 @@ basic.showLeds(`
 namespace bitbooster {
 
     //% blockId=wordPicker block="$word"
-    //% blockHidden=true
     //% colorSecondary="#FFFFFF"
     //% word.fieldEditor="textdropdown" word.fieldOptions.decompileLiterals=true
     //% word.fieldOptions.values=[["A"], ["B"]]
