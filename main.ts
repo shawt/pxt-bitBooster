@@ -14,7 +14,7 @@ basic.showLeds(`
  */
 //% color="#AA278D"
 namespace bitbooster {
-    
+
     //% blockId=wordPicker block="$word"
     //% blockHidden=true
     //% colorSecondary="#FFFFFF"
@@ -23,7 +23,7 @@ namespace bitbooster {
     export function __wordPicker(word: string): string {
         return word;
     }
-    
+
     //% block="Servo $s angle = $angle"
     //% angle.min=0 angle.max=180
     //% s.shaddow="wordPicker"
@@ -32,7 +32,7 @@ namespace bitbooster {
             pins.servoWritePin(AnalogPin.P13, angle);
         } else {
             pins.servoWritePin(AnalogPin.P14, angle);
-        };
+        }
     }
 
     // note that Caml casing yields lower case
