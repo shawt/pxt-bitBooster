@@ -14,8 +14,12 @@ basic.showLeds(`
  */
 //% color="#AA278D"
 namespace bitbooster {
-
+    /**
+    * Get the word field editor
+    * @param word eg: Hello
+    */
     //% blockId=wordPicker block="$word"
+    //% blockHidden=false
     //% colorSecondary="#FFFFFF"
     //% word.fieldEditor="textdropdown" word.fieldOptions.decompileLiterals=true
     //% word.fieldOptions.values=AB
@@ -34,6 +38,11 @@ namespace bitbooster {
         }
     }
 
+    //% block="say $word"
+    //% word.shadow="wordPicker"
+    export function say(word: string) {
+
+    }
     // note that Caml casing yields lower case
     // block text with spaces
 
