@@ -14,16 +14,18 @@ basic.showLeds(`
  */
 //% color="#AA278D"
 namespace bitbooster {
-    //% blockId=wordPicker block="$word"
     
+    //% blockId=wordPicker block="$word"
+    //% blockHidden=true
     //% colorSecondary="#FFFFFF"
     //% word.fieldEditor="textdropdown" word.fieldOptions.decompileLiterals=true
     //% word.fieldOptions.values='[["A"], ["B"]]'
     export function __wordPicker(word: string): string {
         return word;
     }
+    
     //% block="Servo $s angle = $angle"
-    //% angle.min=-0 angle.max=180
+    //% angle.min=0 angle.max=180
     //% s.shaddow = "wordPicker"
     export function servoControl(s: string, angle: number) {
         if (s == "A") {
