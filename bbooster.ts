@@ -6,8 +6,7 @@
  * block should be generated for a **exported** function.
  */
 //% color="#AA278D"
-namespace bitbooster {
-
+namespace basic {
     //% block
     export function servoControl() {
 
