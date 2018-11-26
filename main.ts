@@ -11,13 +11,13 @@
 //% color="#AA278D"
 namespace Booster {
     enum sv {
-        A = 1,
-        B = 2,
+        A,
+        B
     }
 
     //% block="Servo $s angle = $angle"
     //% angle.min=0 angle.max=180 
- 
+
     export function servoControl(s: sv, angle: number) {
         if (s == 1) {
             pins.servoWritePin(AnalogPin.P13, angle);
