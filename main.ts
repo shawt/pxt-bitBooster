@@ -9,9 +9,7 @@
  * Provides access to BitBooster functionality.
  */
 //% color="#AA278D"
-namespace booster {
-
-    //% blockId="ApB" block="A+B"
+namespace Booster {
     enum sv {
         A = 1,
         B = 2,
