@@ -31,7 +31,7 @@ namespace Booster {
 
     //% block="Motor $m Direction $d Speed $sp"
     //% sp.min=0 sp.max=1024
-    export function motorControl(m: sv, d: number, sp: number){
+    export function motorControl(m: sv, d: dir, sp: number){
         if(m==0){
             pins.digitalWritePin(DigitalPin.P8, d)
             pins.analogWritePin(AnalogPin.P15, sp)
