@@ -7,15 +7,19 @@
 //% color="#AA278D"
 namespace booster {
 
+   /**
+     * Custom text dropdown
+     */
+
     /**
-    * Get the word field editor
-    * @param word eg: Hello
-    */
+      * Get the word field editor
+      * @param word eg: Hello
+      */
     //% blockId=wordPicker block="$word"
-    //% blockHidden=false
+    //% blockHidden=true
     //% colorSecondary="#FFFFFF"
     //% word.fieldEditor="textdropdown" word.fieldOptions.decompileLiterals=true
-    //% word.fieldOptions.values=AB
+    //% word.fieldOptions.values='[["Hi"], ["How are you?"]]'
     export function __wordPicker(word: string): string {
         return word;
     }
