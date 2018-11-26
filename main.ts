@@ -4,20 +4,20 @@
  * The most important macro "block" specifies that a
  * block should be generated for a **exported** function.
  */
-
+enum sv {
+    A,
+    B
+}
 /**
  * Provides access to BitBooster functionality.
  */
 //% color="#AA278D"
 namespace Booster {
-    enum sv {
-        A,
-        B
-    }
+
+    
 
     //% block="Servo $s angle = $angle"
     //% angle.min=0 angle.max=180 
-
     export function servoControl(s: sv, angle: number) {
         if (s == 1) {
             pins.servoWritePin(AnalogPin.P13, angle);
