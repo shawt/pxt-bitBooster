@@ -21,8 +21,8 @@ namespace booster {
     //% block="Servo $s angle = $angle"
     //% angle.min=0 angle.max=180 
     //% s.shadow="ApB" 
-    export function servoControl(s: string, angle: number) {
-        if (s == "A") {
+    export function servoControl(s: number, angle: number) {
+        if (s == 1) {
             pins.servoWritePin(AnalogPin.P13, angle);
         } else {
             pins.servoWritePin(AnalogPin.P14, angle);
