@@ -12,16 +12,15 @@
 namespace booster {
 
     //% blockId="ApB" block="A+B"
-    enum Sv {
+    enum sv {
         A = 1,
         B = 2,
-        AB = 3
     }
 
     //% block="Servo $s angle = $angle"
     //% angle.min=0 angle.max=180 
-    //% s.shadow="ApB" 
-    export function servoControl(s: Sv, angle: number) {
+ 
+    export function servoControl(s: sv, angle: number) {
         if (s == 1) {
             pins.servoWritePin(AnalogPin.P13, angle);
         } else {
