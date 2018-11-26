@@ -11,25 +11,14 @@
 //% color="#AA278D"
 namespace booster {
 
-    /**
-      * Custom text dropdown
-      */
-
-    /**
-      * Get the word field editor
-      * @param word eg: \"H\"
-      */
-    //% blockId=wordPicker block="$word"
-    //% blockHidden=true
-    //% colorSecondary="#FFFFFF"
-    //% word.fieldEditor="textdropdown" word.fieldOptions.decompileLiterals=true
-    //% word.fieldOptions.values='[["Hi"], ["How are you?"]]'
-    export function __wordPicker(word: string): string {
-        return word;
+    enum Sv {
+        A = 1,
+        B = 2,
+        //% blockId="ApB" block="A+B"
+        AB = 3,
     }
 
     //% block="Servo $s angle = $angle"
-    //% s.shadow="wordPicker"
     //% angle.min=0 angle.max=180  
     export function servoControl(s: string, angle: number) {
         if (s == "A") {
