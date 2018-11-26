@@ -7,13 +7,13 @@
 //% color="#AA278D"
 namespace booster {
 
-   /**
-     * Custom text dropdown
-     */
+    /**
+      * Custom text dropdown
+      */
 
     /**
       * Get the word field editor
-      
+      * @param word eg: H
       */
     //% blockId=wordPicker block="$word"
     //% blockHidden=true
