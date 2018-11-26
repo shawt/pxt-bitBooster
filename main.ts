@@ -11,11 +11,11 @@
 //% color="#AA278D"
 namespace booster {
 
+    //% blockId="ApB" block="A+B"
     enum Sv {
         A = 1,
         B = 2,
-        //% blockId="ApB" block="A+B"
-        AB = 3,
+        AB = 3
     }
 
     //% block="Servo $s angle = $angle"
