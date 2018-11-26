@@ -4,6 +4,10 @@
  * The most important macro "block" specifies that a
  * block should be generated for a **exported** function.
  */
+
+/**
+ * Provides access to BitBooster functionality.
+ */
 //% color="#AA278D"
 namespace booster {
 
