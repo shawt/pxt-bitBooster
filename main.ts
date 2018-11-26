@@ -17,7 +17,7 @@ namespace booster {
 
     /**
       * Get the word field editor
-      * @param word eg: "H"
+      * @param word eg: \"H\"
       */
     //% blockId=wordPicker block="$word"
     //% blockHidden=true
