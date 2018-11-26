@@ -6,9 +6,10 @@
  */
 //% color="#AA278D"
 namespace booster {
+
     /**
     * Get the word field editor
-    * @param word eg: A
+    * @param word eg: Hello
     */
     //% blockId=wordPicker block="$word"
     //% blockHidden=false
